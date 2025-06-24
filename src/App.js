@@ -1,6 +1,8 @@
 
 import './App.css';
-import Event from './view/Event';
+import Routing from './routing/Routing';
+// import Event from './view/Event';
+import TextState from './view/TextState';
 
 // import Parent from './view/Parent';
 // import ParentFn from './view/ParentFn';
@@ -10,9 +12,8 @@ import Event from './view/Event';
 
 function App() {
   return (
-    <div className="App"> 
-      <h1>We are Learning React</h1>
-      <Event/>
+    <div> 
+      <Routing/>
     </div>
   );
 }
